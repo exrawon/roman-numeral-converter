@@ -12,7 +12,8 @@ body {
 	height: 100vh;
 	background: linear-gradient(30deg, #232121, #201c1c);
 	text-align: center;
-	padding: 40px;
+	margin-top: 10vw;
+	overflow: hidden;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 	margin: auto;
 	height: 220px;
 	max-width: 400px;
-	font-size: 3rem;
+	font-size: 2.95rem;
 	color: whitesmoke;
 	font-style: italic;
 	font-weight: 1000;
