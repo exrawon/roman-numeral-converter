@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	/* border: 1px red solid; */
+}
+html {
+	user-select: none;
+}
+body {
+	font-family: 'Times New Roman', Times, serif;
+	height: 100vh;
+	background: linear-gradient(30deg, #232121, #201c1c);
+	text-align: center;
+	padding: 40px;
+}
+
+h1 {
+	/* border: 1px solid red; */
+	margin: auto;
+	height: 220px;
+	max-width: 400px;
+	font-size: 3rem;
+	color: whitesmoke;
+	font-style: italic;
+	font-weight: 1000;
+	text-shadow: 5px 5px rgb(56, 22, 22);
+	border-top: 10px white double;
+	border-bottom: 10px white double;
+	padding-top: 15px;
+	margin-bottom: 50px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#number {
+	height: 60px;
+	width: 250px;
+	padding: 20px;
+	padding-left: 40px;
+	font-size: 2rem;
+	font-weight: bold;
+	border-radius: 4px;
+	background-color: hsl(207, 16%, 86%);
+	text-align: center;
+}
+#number:focus {
+	outline: 2px #ff4343 solid;
+}
+#number::placeholder {
+	font-size: 1rem;
+	font-weight: bold;
+	transform: translate(0, -30%);
+}
+#convert-btn {
+	cursor: pointer;
+	height: 55px;
+	width: 120px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-left: 20px;
+	background-color: hsl(80, 61%, 50%);
+}
+
+#convert-btn:hover {
+	background-color: hsl(80, 61%, 55%);
+}
+#convert-btn:active {
+	background-color: hsl(80, 61%, 60%);
+	transform: scale(1.01);
+}
+#output {
+	border: 5px inset hsl(0, 68%, 32%);
+	padding: 20px;
+	min-height: 83px;
+	max-height: 500px;
+	max-width: 400px;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 1.8rem;
+	font-weight: bold;
+	background-color: hsl(0, 0%, 10%);
+	color: #ffc83e;
+}
